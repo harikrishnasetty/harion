@@ -1,0 +1,106 @@
+.ov-root {
+  position: fixed;
+  inset: 0;
+  cursor: crosshair;
+  user-select: none;
+  overflow: hidden;
+}
+
+.ov-shot {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  pointer-events: none;
+}
+
+.ov-dim {
+  position: absolute;
+  inset: 0;
+  background: rgba(4, 6, 12, 0.5);
+  pointer-events: none;
+}
+
+.ov-selection {
+  position: absolute;
+  border: 1.5px solid var(--cyan);
+  box-shadow:
+    0 0 0 9999px rgba(4, 6, 12, 0.55),
+    0 0 26px rgba(34, 211, 238, 0.55),
+    inset 0 0 26px rgba(34, 211, 238, 0.18);
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.ov-size {
+  position: absolute;
+  transform: translateY(-130%);
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-family: var(--mono);
+  color: #041016;
+  background: var(--cyan);
+  white-space: nowrap;
+}
+
+.ov-hint {
+  position: absolute;
+  top: 26px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 9px 18px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  background: rgba(10, 14, 24, 0.85);
+  border: 1px solid var(--stroke-strong);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+}
+
+.ov-hint b {
+  color: var(--cyan);
+}
+
+.ov-actions {
+  position: absolute;
+  bottom: 34px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 14px;
+  background: rgba(10, 14, 24, 0.9);
+  border: 1px solid var(--stroke-strong);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+}
+
+.ov-actions button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 16px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--stroke);
+  transition: all 0.15s ease;
+}
+
+.ov-actions button:hover {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.ov-actions button.primary {
+  color: #041016;
+  background: linear-gradient(135deg, var(--cyan), var(--violet));
+  border: none;
+}

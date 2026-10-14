@@ -1,0 +1,32 @@
+export const IPC = {
+  captureSubmit: 'capture:submit',
+  captureClipboard: 'capture:clipboard',
+  itemsList: 'items:list',
+  itemsGet: 'items:get',
+  itemsUpdate: 'items:update',
+  itemsDelete: 'items:delete',
+  itemsComplete: 'items:complete',
+  itemsStats: 'items:stats',
+  itemsChanged: 'items:changed',
+  settingsGet: 'settings:get',
+  settingsSet: 'settings:set',
+  aiStatus: 'ai:status',
+  aiClassify: 'ai:classify',
+  aiRecheck: 'ai:recheck',
+  windowResizeOrb: 'window:resize-orb',
+  windowCollapseOrb: 'window:collapse-orb',
+  windowOpenMain: 'window:open-main',
+  windowHideOrb: 'window:hide-orb',
+  windowShowOrb: 'window:show-orb',
+  windowMainCommand: 'window:main-command',
+  windowCloseSelf: 'window:close-self',
+  screenshotBegin: 'screenshot:begin',
+  screenshotGetImage: 'screenshot:get-image',
+  screenshotComplete: 'screenshot:complete',
+  screenshotCancel: 'screenshot:cancel',
+  orbitFocusCapture: 'orbit:focus-capture',
+  toast: 'ui:toast',
+  appQuit: 'app:quit'
+} as const
+
+export type IpcChannel = (typeof IPC)[keyof typeof IPC]

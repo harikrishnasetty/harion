@@ -1,0 +1,58 @@
+Harion Permission-Required Source License
+Version 1.0 — October 2026
+
+Copyright (c) 2026 Hari Krishna Setty. All Rights Reserved.
+
+This software is SOURCE-AVAILABLE, not open source. The source code is published
+so that people can read, study, and evaluate it. It is NOT free to use. Using it
+requires the author's explicit prior written permission.
+
+1. PERMITTED WITHOUT PERMISSION
+   You may:
+     a. View, read, and study the source code;
+     b. Fork and clone the repository for the sole purpose of reading it and
+        preparing a request for permission under Section 3.
+
+2. PERMISSION REQUIRED
+   You may NOT do any of the following without the author's prior written
+   permission:
+     a. Run, install, execute, deploy, or otherwise use this software on any
+        computer, device, server, or environment (including your own personal
+        laptop or desktop);
+     b. Use this software for any personal, internal, educational, research,
+        commercial, or production purpose;
+     c. Copy, modify, adapt, translate, or create derivative works;
+     d. Distribute, publish, sublicense, sell, rent, lease, or otherwise make
+        this software available to any third party;
+     e. Use the software to provide any service to others.
+
+3. HOW TO REQUEST PERMISSION
+   To use this software on your machine, you must first request permission in
+   writing. Open an issue or contact the author through GitHub:
+
+       https://github.com/harikrishnasetty
+
+   State your name, the intended use, the machines/environments involved, and
+   whether the use is commercial. Permission is granted only if the author
+   replies with an explicit written approval. Silence is NOT permission, and a
+   clone, fork, or download is NOT permission.
+
+4. COMMERCIAL USE
+   Any commercial use requires a separate written commercial license. Contact
+   the author to discuss terms.
+
+5. NO WARRANTY AND LIMITATION OF LIABILITY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN
+   ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
+   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+6. TERMINATION
+   Any permission granted under this license terminates automatically if you
+   breach any of its terms. Upon termination you must stop all use and delete
+   all copies of the software.
+
+7. CONTACT
+   Hari Krishna Setty — https://github.com/harikrishnasetty
