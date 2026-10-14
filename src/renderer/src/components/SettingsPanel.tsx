@@ -147,6 +147,8 @@ export function SettingsPanel({
           <div className="switch__label">
             <strong>Harion 0.1.0</strong>
             <span>Local-first capture assistant — orb, clipboard, screenshot, drag &amp; drop.</span>
+            <span>Built by Hari Krishna Setty</span>
+            <span>github.com/harikrishnasetty/harion</span>
           </div>
           <button
             className="btn btn--sm detail__danger"
