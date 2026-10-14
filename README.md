@@ -9,6 +9,20 @@ Everything is stored locally in SQLite. Nothing leaves your machine.
 
 ---
 
+## Demo
+
+▶ **[Watch the 36-second walkthrough](docs/media/harion-demo.mp4)**
+
+| The orb | Quick capture (live preview) | Inbox |
+|---------|------------------------------|-------|
+| ![Floating orb](docs/screenshots/01-orb.png) | ![Quick capture panel](docs/screenshots/02-capture-panel.png) | ![Inbox](docs/screenshots/03-inbox.png) |
+
+| Item detail | Reminders | Knowledge | Settings |
+|-------------|-----------|-----------|----------|
+| ![Item detail](docs/screenshots/04-item-detail.png) | ![Reminders](docs/screenshots/05-collection-reminders.png) | ![Knowledge](docs/screenshots/06-collection-knowledge.png) | ![Settings](docs/screenshots/07-settings.png) |
+
+---
+
 ## Features
 
 - **Floating neon orb** — translucent, always-on-top, draggable, with idle/pulse animations.
